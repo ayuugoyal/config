@@ -128,3 +128,8 @@ case ":$PATH:" in
 esac
 # pnpm end
 source ~/colcon_ws/install/setup.zsh
+
+# for checking zshrc loaded or not
+# echo "Loaded .config/zsh/zshrc"
+
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
