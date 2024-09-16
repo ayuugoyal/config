@@ -118,7 +118,7 @@ source ~/ros2_ws/install/setup.zsh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 # pnpm
 export PNPM_HOME="/home/ayuugoyal/.local/share/pnpm"
@@ -133,3 +133,6 @@ source ~/colcon_ws/install/setup.zsh
 # echo "Loaded .config/zsh/zshrc"
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
+export PATH=$PATH:$HOME/.local/bin
+
